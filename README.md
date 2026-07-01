@@ -1,6 +1,8 @@
 # Zannie K. website
 
-This folder now contains a responsive multi-page website based on the supplied media kit.
+This repository contains Zannie K.'s responsive multi-page media website.
+
+Live site: [zanniek.vercel.app](https://zanniek.vercel.app)
 
 ## What is ready
 
@@ -8,14 +10,13 @@ This folder now contains a responsive multi-page website based on the supplied m
 - Separate cover, about, experience, services, demos, and contact pages
 - Smooth page transitions and staggered scroll animations
 - Custom audio players that play in the browser without downloads
+- Three voice demos and two on-air Airchecks
+- Viewable 2026 broadcast résumé
 - Photos cropped from the supplied media kit
 - Accessible navigation and keyboard-friendly controls
 
-## What is still needed
+## Deployment
 
-1. Confirm the current contact information before publishing.
-2. Publish the folder using a web host. Netlify, GitHub Pages, or Vercel can all host this static site.
-
-All three supplied MP3 demos are installed and play directly in the browser.
+The production website is hosted on Vercel and is publicly accessible without a login.
 
 Open `index.html` to begin on the cover page. The navigation connects all six pages.
