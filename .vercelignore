@@ -1,0 +1,20 @@
+.agents/
+.git/
+.gitdata/
+.tools/
+repository-data/
+tmp/
+vercel-user/
+vercel-login-output.txt
+vercel-login-error.txt
+vercel-deploy-output.txt
+vercel-deploy-error.txt
+
+# Original source files; publish the web-ready copies under assets instead.
+Zannie K Media Kit (1).pdf
+ZANNIEK_15 SEC DEMO.mp3
+ZANNIEK_20 SEC DEMO.mp3
+ZANNIEK_VOICE DEMO_2020.mp3
+ZANNIEK_KS95_AIRCHECK_1.mp3
+ZANNIEK_VIBE_JLB_HYBRID_2023.mp3
+Resume_The_Loud_Mouth_ZannieK_SWAG_2026.pdf

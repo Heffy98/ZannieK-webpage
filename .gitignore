@@ -1,0 +1,19 @@
+# Temporary working files
+tmp/
+.tools/
+.git/
+.gitdata/
+repository-data/
+
+# Original source files kept locally (the optimized website copies are in assets/)
+Zannie K Media Kit (1).pdf
+ZANNIEK_15 SEC DEMO.mp3
+ZANNIEK_20 SEC DEMO.mp3
+ZANNIEK_VOICE DEMO_2020.mp3
+ZANNIEK_KS95_AIRCHECK_1.mp3
+ZANNIEK_VIBE_JLB_HYBRID_2023.mp3
+Resume_The_Loud_Mouth_ZannieK_SWAG_2026.pdf
+
+# Operating system files
+.DS_Store
+Thumbs.db
