@@ -431,13 +431,22 @@ body[data-page="home"] .hero { min-height: calc(100svh - 112px); }
   .menu-button { display: block; position: relative; z-index: 2; cursor: pointer; border: 1px solid rgba(255,255,255,.25); border-radius: 10px; background: rgba(255,255,255,.08); }
   .site-nav {
     position: fixed;
-    inset: 68px 0 0;
+    top: 68px;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    height: calc(100dvh - 68px);
+    max-height: calc(100dvh - 68px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: .8rem;
-    padding: 2rem 1.25rem;
+    min-height: 0;
+    padding: 1.5rem 1.25rem calc(2.5rem + env(safe-area-inset-bottom));
     overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
     background: linear-gradient(145deg, rgba(4,24,72,.96), rgba(14,79,171,.9));
     -webkit-backdrop-filter: blur(22px);
     backdrop-filter: blur(22px);
