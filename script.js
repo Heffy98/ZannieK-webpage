@@ -6,7 +6,8 @@ if (sharedHeader) {
   const navItems = [
     ['home', 'index.html', 'Cover'], ['about', 'about.html', 'About'],
     ['experience', 'experience.html', 'Experience'], ['services', 'services.html', 'Services'],
-    ['demos', 'demos.html', 'Demos'], ['contact', 'contact.html', "Let's connect"]
+    ['demos', 'demos.html', 'Demos'], ['acting', 'acting.html', 'Acting'],
+    ['contact', 'contact.html', "Let's connect"]
   ];
   sharedHeader.innerHTML = `<header class="site-header scrolled">
     <a class="brand page-link" href="index.html" aria-label="Zannie K. home"><span class="brand-mark">ZK</span><span>Zannie K.</span></a>
@@ -16,7 +17,7 @@ if (sharedHeader) {
 }
 
 if (sharedFooter) {
-  const contacts = `<a href="mailto:Zanniemadman@gmail.com"><span>✉</span> Zanniemadman@gmail.com</a><a href="tel:+17733169585"><span>☎</span> (773) 316-9585</a><a href="https://www.zanniek.com" target="_blank" rel="noopener"><span>◎</span> zanniek.com</a><a href="https://www.instagram.com/Zanniek" target="_blank" rel="noopener"><span>◉</span> @Zanniek</a><a href="https://www.linkedin.com/in/zanie-glover-140b1825/" target="_blank" rel="noopener"><span>in</span> linkedin.com/in/zanie-glover-140b1825</a>`;
+  const contacts = `<a href="mailto:Zanniemadman@gmail.com"><span>✉</span> Zanniemadman@gmail.com</a><a href="tel:+17633169585"><span>☎</span> (763) 316-9585</a><a href="https://www.instagram.com/Zanniek" target="_blank" rel="noopener"><span>◉</span> @Zanniek</a><a href="https://www.linkedin.com/in/zanie-glover-140b1825/" target="_blank" rel="noopener"><span>in</span> linkedin.com/in/zanie-glover-140b1825</a>`;
   sharedFooter.innerHTML = `<div class="contact-ticker" aria-label="Zannie K. contact information"><div class="ticker-track"><div class="ticker-group">${contacts}</div><div class="ticker-group" aria-hidden="true">${contacts}</div></div></div><footer class="site-footer"><p>© <span id="year"></span> Zannie K. All rights reserved.</p><a class="page-link" href="index.html">Back to cover ↑</a></footer>`;
   sharedFooter.querySelectorAll('.ticker-group[aria-hidden] a').forEach((link) => link.tabIndex = -1);
 }
